@@ -1,0 +1,36 @@
+.list {
+    display: flex;
+    justify-content: space-between; 
+    gap: 12px;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #79757c;
+    border-radius: 4px;
+    background-color: #f3e8ff; 
+  }
+  
+  .button {
+    background-color: #a97da2;
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #6b21a8;
+  }
+  
+  .textName {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 0;
+   }
+
+  .textNumber{
+    display: flex;
+    gap: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+   }
